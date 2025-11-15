@@ -1,0 +1,50 @@
+.menu-thumbnail{
+    margin-top: 15px;
+    height: auto;
+    border-radius: 10px;
+}
+.container-thumbnail{
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container-receitas{
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn-thumbnail{
+    max-width: fit-content;
+}
+.img-fluid-thumbnail{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 200px;
+    object-fit: cover; 
+}
+.img-fluid{
+    border-radius: 20px;
+}
+@media (max-width: 767px) {
+    .col-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .row .btn-thumbnail {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .img-fluid-thumbnail {
+        max-width: 280px;
+    }
+    .botao-pesquisa {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

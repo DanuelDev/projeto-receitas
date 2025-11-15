@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "bolo de chocolate",
+    "autor": "Fulano de Tal",
+    "thumbnail": "data/imagens/bolo_de_chocolate.jpg",
+    "tags": ["doce", "chocolate"],
+    "tempo": "45 min",
+    "ingredientes": ["2 ovos", "chocolate em pó", "farinha", "açúcar"],
+    "descricao": "Misture tudo e leve ao forno."
+  },
+  {
+    "id": 2,
+    "titulo": "macarrão com queijo",
+    "autor": "Ciclano de Souza",
+    "thumbnail": "data/imagens/macarrao_com_queijo.jpg",
+    "tags": ["massa", "queijo", "rápido"],
+    "tempo": "20 min",
+    "ingredientes": ["macarrão", "queijo", "manteiga"],
+    "descricao": "Cozinhe o macarrão e misture o queijo."
+  },
+  {
+    "id": 3,
+    "titulo": "salada de frutas",
+    "autor": "Beltrano Alves",
+    "thumbnail": "data/imagens/salada_de_frutas.jpg",
+    "tags": ["saudavel", "frutas"],
+    "tempo": "10 min",
+    "ingredientes": ["Maçã", "Banana", "Yogurt desnatado"],
+    "descricao": "Corte as frutas e misture em uma vasilha."
+  },
+  {
+    "id": 4,
+    "titulo": "bolo de milho",
+    "autor": "João Silva",
+    "thumbnail": "data/imagens/bolo_milho.jpg",
+    "tags": ["bolo", "milho"],
+    "tempo": "30 min",
+    "ingredientes": ["milho", "farinha", "Fermento", "açúcar"],
+    "descricao": "Misture tudo e leve ao forno."
+  },
+  {
+    "id": 5,
+    "titulo": "omelete simples",
+    "autor": "Maria Oliveira",
+    "thumbnail": "data/imagens/omelete_simples.jpg",
+    "tags": ["saudavel", "ovo", "omelete", "glutem-free"],
+    "tempo": "10 min",
+    "ingredientes": ["2 ovos", "salsinha", "cebolinha", "tomate"],
+    "descricao": "Bata os ovos e adicione os ingredientes. Cozinhe na frigideira."
+  },
+  {
+    "id": 6,
+    "titulo": "brownie de chocolate",
+    "autor": "Carlos Pereira",
+    "thumbnail": "data/imagens/brownie_chocolate.jpg",
+    "tags": ["doce", "chocolate", "brownie"],
+    "tempo": "35 min",
+    "ingredientes": ["chocolate", "manteiga", "açúcar", "ovos", "farinha"],
+    "descricao": "Derreta o chocolate com a manteiga, misture os outros ingredientes e asse."
+  },
+  {
+    "id": 7,
+    "titulo": "mousse de maracujá",
+    "autor": "Ana Costa",
+    "thumbnail": "data/imagens/mousse_maracuja.jpg",
+    "tags": ["doce", "maracujá", "mousse"],
+    "tempo": "25 min",
+    "ingredientes": ["suco de maracujá", "leite condensado", "creme de leite"],
+    "descricao": "Misture tudo no liquidificador e leve à geladeira."
+  },
+  {
+    "id": 8,
+    "titulo": "bife acebolado",
+    "autor": "Ricardo Lima",
+    "thumbnail": "data/imagens/bife_acebolado.jpg",
+    "tags": ["carne", "bife", "acebolado"],
+    "tempo": "30 min",
+    "ingredientes": ["bife", "cebola", "alho", "sal", "pimenta"],
+    "descricao": "Cozinhe o bife e adicione a cebola refogada."
+  }
+]

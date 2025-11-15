@@ -9,7 +9,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
                 header("Location: receitas.php?id=$id");
                 exit;
             }else {
-                header("Location: index.php");
+                header("Location: erro.php");
             }
         }
     }
@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == "GET"){
             }
         }
     } else {
-        header("Location: index.php");
+        header("Location: erro.php");
     }
 }?>
 <!--Conteúdo da página de receitas-->

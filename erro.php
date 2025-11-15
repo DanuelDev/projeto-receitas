@@ -9,8 +9,6 @@
                     $id = $r['id'];
                     header("Location: receitas.php?id=$id");
                     exit;
-                }else {
-                    header("Location: erro.php");
                 }
             }
         }
@@ -29,18 +27,10 @@
             </form>
         </div>
     </div>
-    <!--Container com todas as receitas-->
-    <div class="container-flex mt-5 container-receitas">
-        <div class="row justify-content-center" style="padding-left: 20px; padding-right: 20px;">
-            <?php foreach ($receitas_json as $r): ?>
-            <a href="receitas.php?id=<?= urlencode($r['id']) ?>" class="col-3 btn btn-thumbnail">
-                <img src="<?= $r['thumbnail'] ?>" alt="<?= ucwords($r['titulo']) ?>" class="img-fluid-thumbnail menu-thumbnail">
-                <h5><strong><?= ucwords($r['titulo']) ?></strong></h5>
-                <p>Autor: <?= $r['autor'] ?></p>
-            </a>
-            <?php endforeach ?>
-        </div>
-        <br>
+    <!--Conteúdo da página de erro-->
+    <div class="container mt-5 container-thumbnail">
+        <h1>Ops... Nenhuma receita encontrada!</h1>
+        <img src="data/imagens/prato_vazio.jpg" alt="Prato vazio" class="img-fluid">
     </div>
 </div>
 <?php include 'footer.php'; ?>

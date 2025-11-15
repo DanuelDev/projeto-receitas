@@ -38,7 +38,8 @@ Referências Externas Utilizadas:
 
 - Manual oficial do PHP;
 - Documentação do Bootstrap;
-- Sites de receitas (para modelagem do design/organização).
+- Sites de receitas (para modelagem do design/organização);
+- Site Pixabay para uso de imagens Royalty Free.
 --------------------------
 Tempo aproximado de desenvolvimento
 
